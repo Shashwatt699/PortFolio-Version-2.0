@@ -35,7 +35,7 @@ const Hero = () => {
                     <div className="flex flex-col gap-7">
                         <div className="hero-text">
                             <h1>
-                                Shaping
+                                Forging
                                 <span className='slide'>
                                     <span className='wrapper'>
                                         {words.map((word) => (
@@ -55,8 +55,8 @@ const Hero = () => {
                             <h1>into Real Projects</h1>
                             <h1>that Deliver Results</h1>
                         </div>
-                        <p className="text-white-50  md:text-xl relative z-10 pointer-event-none">
-                            Hi, My name is Shashwat and I am a Full Stack Developer.
+                        <p className="text-white-50  md:text-xl relative z-10 pointer-event-none overflow-hidden">
+                            Heyyy, I am Shashwat and I love creating beautiful and functional web applications.
                         </p>
                         <Button
                             className="md:w-80 md:h-16 w-60 h-12"

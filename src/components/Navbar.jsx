@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { navLinks } from '../constants/index.js'
 
 const Navbar = () => {
@@ -24,7 +24,7 @@ const Navbar = () => {
                 </a>
 
                 <nav className='desktop'>
-                    <ul>
+                    <ul className='text-white-500'>
                         {navLinks.map(({ link, name }) => (
                             <li key={name} className='group'>
                                 <a href={link}>

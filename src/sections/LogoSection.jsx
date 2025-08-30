@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { logoIconsList } from '../constants/index.js'
 
 const LogoIcon = ({ icon }) => {

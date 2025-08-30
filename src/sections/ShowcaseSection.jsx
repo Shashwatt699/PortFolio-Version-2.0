@@ -48,28 +48,38 @@ const ShowCaseSection = () => {
                     {/* LEFT */}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="ryde" />
+                            <img src="/images/Ecom.png" alt="ryde" />
                         </div>
                         <div className="text-content">
-                            <h2>On Demand Rides made simple with a power ful usefriendly app called rype</h2>
-                            <p className='text-white-50 md:text-xl'>An app build with React native, Expo, & TailWindCSS for a fast, user-friendly experience.</p>
+                            <h2>A Scalable E-Commerce Platform built with the MERN Stack</h2>
+                            <p className='text-white-50 md:text-xl'>Secure authentication, optimized APIs, and a responsive shopping experience powered by Redux & TailwindCSS.</p>
                         </div>
                     </div>
                     {/* RIGHT */}
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
-                            <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/images/project2.png" alt="Library Management" />
+                            <div className="image-wrapper bg-[transparent] rounded-lg overflow-hidden border-2 border-[#ffefdb] ">
+                                <img
+                                    src="/images/Chatty5.png"
+                                    alt="Chatty Application"
+                                    className="w-full h-full object-default"
+                                />
                             </div>
-                            <h2>Library Management Platform</h2>
+                            <h2>Chatty- Social Platform for Chatting</h2>
                         </div>
+
                         <div className="project" ref={project3Ref}>
-                            <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="/images/project3.png" alt="YC Directory" />
+                            <div className="image-wrapper bg-[black] rounded-lg overflow-hidden border-2 border-[#ffefdb]">
+                                <img
+                                    src="/images/Netf.png"
+                                    alt="Netflix"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
-                            <h2>YC Directory - A Startup Showcase App</h2>
+                            <h2>Netflix Clone </h2>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>

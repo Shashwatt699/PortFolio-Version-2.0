@@ -29,63 +29,63 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 2, suffix: "+", label: "Years of Building Projects" },
+  { value: 11, suffix: "+", label: "Technologies Mastered" },
+  { value: 21, suffix: "+", label: "Completed Projects" },
+  { value: 15, suffix: "+", label: "Certification Completed" },
 ];
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/aws.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/js.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/html.png",
+  },
+  {
+    imgPath: "/images/logos/tailwind.png",
   },
   {
     imgPath: "/images/logos/company-logo-4.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/rect.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/noded.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "/images/logos/exp.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "/images/logos/git.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "/images/logos/mongo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/chatgpt.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/ctq.png",
+    title: "Commitment to Quality",
+    desc: "I ensure clean, maintainable code and polished designs for every project.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/ps.png",
+    title: "Problem-Solving Mindset",
+    desc: "Turning challenges into opportunities with structured solutions.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/cl.png",
+    title: "Continuous Learning",
+    desc: "I prioritize ongoing education and skill development to stay ahead in the industry.",
   },
 ];
 
@@ -146,40 +146,41 @@ const techStackIcons = [
 ];
 
 const expCards = [
-  {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+   {
+    review: "My journey at SRM University has given me a solid base in computer science, sharpening my problem-solving and programming skills, while also exposing me to modern technologies like blockchain and cloud computing.",
+    imgPath: "/images/uni.png",
+    logoPath: "/images/uni.png",
+    title: "B.Tech in Computer Science (Blockchain Specialization)",
+    date: "2022 – 2026 (Ongoing)",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Strong foundation in Core CS subjects (OS, DBMS, CN, OOPs).",
+      "CGPA: 8.7+ till now.",
+      "Participated in research & hackathons (2nd place for DePIN research project).",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review: "The IBM Full-Stack JavaScript Developer certification gave me strong hands-on skills in both frontend and backend development. Working on real-world labs and assignments built my confidence in creating scalable applications from scratch.",
+    imgPath: "/images/ibm.png",
+    logoPath: "/images/ibm.png",
+    title: "Full-Stack JavaScript Developer Trainee",
+    date: "April 2025 – Aug 2025",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built and deployed frontend apps using React, HTML, CSS, JavaScript.",
+      "Developed backend APIs with Node.js, Express, and MongoDB.",
+      "Gained exposure to Docker, Kubernetes, and serverless architectures.",
+      "Applied learning through hands-on labs and graded assignments."
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "Exploring AWS opened up the world of cloud computing for me. From serverless to networking, the certification helped me understand how real-world applications are scaled and secured in the cloud.",
+    imgPath: "/images/aaws.png",
+    logoPath: "/images/aaws.png",
+    title: "AWS Cloud Practitioner Certification",
+    date: "July 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Learned core AWS services: EC2, S3, Lambda, IAM.",
+      "Understood cloud architecture, pricing, and security best practices.",
+      "Strengthened foundation for cloud-native application deployment.",
     ],
   },
 ];
@@ -246,20 +247,19 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "Resume",
+    imgPath: "/images/resume.png",
+    url: "https://drive.google.com/drive/folders/15QkpCzMXcHecAxPXITSzIb7CCH-x7i8G?usp=sharing",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    url: "https://x.com/ShashWATT23"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/shashwatt23"
   },
 ];
 
